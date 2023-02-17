@@ -1,14 +1,4 @@
 
-@media (max-width: 768px) {
-    nav {
-        display: none;
-    }
-
-    main {
-        margin-left: unset;
-    }
-}
-
 @media (prefers-reduced-motion: no-preference) {
     * {
         scroll-behavior: smooth;
@@ -67,4 +57,14 @@ div {
     color: #1b1b32;
     width: 100vw;
     margin-left: -50px;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: none;
+    }
+
+    main {
+        margin-left: unset;
+    }
 }
